@@ -21,7 +21,7 @@ Monolog Formatter based on NormalizerFormatter for storing logs to the JSON-file
       "user_agent":"PostmanRuntime/7.26.10"
    },
    "context":{
-      "exception":"{\"message\":\"Couldn't connect to host, Elasticsearch down?\",\"class\":\"Elastica\\\\Exception\\\\Connection\\\\HttpException\",\"code\":500,\"file\":\"\\/vendor\\/ruflin\\/elastica\\/src\\/Transport\\/Http.php:190\",\"line\":0,\"trace\":\"\\/home\\/valentin\\/Development\\/src\\/backend-social-network\\/vendor\\/ruflin\\/elastica\\/src\\/Request.php:181; \\/home\\/valentin\\/Development\\/src\\/backend-social-network\\/vendor\\/ruflin\\/elastica\\/src\\/Client.php:521; ..... \"}"
+      "exception":"{\"message\":\"Couldn't connect to host, Elasticsearch down?\",\"class\":\"Elastica\\\\Exception\\\\Connection\\\\HttpException\",\"code\":500,\"file\":\"\\/vendor\\/ruflin\\/elastica\\/src\\/Transport\\/Http.php:190\",\"line\":0,\"trace\":\"\\/src\\/backend\\/vendor\\/ruflin\\/elastica\\/src\\/Request.php:181; \\/src\\/backend\\/vendor\\/ruflin\\/elastica\\/src\\/Client.php:521; ..... \"}"
    },
    "datetime":"2021-01-15T16:08:14.100203+03:00",
    "message":"Couldn't connect to host, Elasticsearch down?",
