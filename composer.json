@@ -1,0 +1,39 @@
+{
+  "name": "ValentinNikolaev/monolog-extended-handler",
+  "description": "Extended Monolog Formatter and Handler",
+  "keywords": [
+    "log",
+    "logging",
+    "monolog"
+  ],
+  "authors": [
+    {
+      "name": "Valentin Nikolaev",
+      "email": "valenti.nikolaev@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^2.0",
+    "php": "^7.2",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tunguska\\Monolog\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tunguska\\Monolog\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
+  }
+}
